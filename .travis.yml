@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.4"
+install:
+  - "pip install requests"
+jobs:
+  include:
+    - script: python src/raklibtest.py
+    - script: python src/raklibpackettest.py
