@@ -1,7 +1,9 @@
 language: python
 python:
-  - "3.4"
+  - "3.6"
+  - "3.7"
+  - "3.8"
 install:
   - "pip install requests"
 script: 
-  - python src/MCBES.py --no_wizard -travis
+  - python ./src/MCBES.py --no_wizard -travis
