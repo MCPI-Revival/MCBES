@@ -5,5 +5,4 @@ install:
   - "pip install requests"
 jobs:
   include:
-    - script: python src/raklibtest.py
-    - script: python src/raklibpackettest.py
+    - script: python src/MCBES.py -travis
