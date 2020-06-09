@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/Mcbes/MCBES.svg?branch=master)](https://travis-ci.org/MCBes/MCBES) ![GitHub issues](https://img.shields.io/github/issues-raw/Mcbes/mcbes) [![CodeFactor](https://www.codefactor.io/repository/github/mcbes/mcbes/badge)](https://www.codefactor.io/repository/github/mcbes/mcbes)
 # MCBES
 ####Based off Podrum by MFDGaming, Nougator
-#### written by MFDGaming, nobody5050
+#### written by [![MFDGaming](MFDGaming)](http://github.com/MFDGaming), nobody5050
 
 #### MCBES is a powerful fast minecraft proxy server. built for minecraft pocket 0.6.1 and minecraft Pi edition 0.1.1
 
