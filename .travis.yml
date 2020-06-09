@@ -3,6 +3,5 @@ python:
   - "3.4"
 install:
   - "pip install requests"
-jobs:
-  include:
-    - script: python src/MCBES.py -travis
+script: 
+  - python src/MCBES.py --no_wizard -travis
