@@ -9,7 +9,7 @@
 Python is fast, easy to write, easy for fix bugs. Note, Runs Python 3.4.
 
 ### Release date?
-NA yet. I may never release, we shall see
+It is going to be released when it is done
 
 ### Why 0.6.1?
 I anticipate being asked this a lot if I make it work so I might as well answer now. Basically this is a proxy that translates
