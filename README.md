@@ -1,19 +1,21 @@
 [![Build Status](https://travis-ci.org/Mcbes/MCBES.svg?branch=master)](https://travis-ci.org/MCBes/MCBES) ![GitHub issues](https://img.shields.io/github/issues-raw/Mcbes/mcbes) [![CodeFactor](https://www.codefactor.io/repository/github/mcbes/mcbes/badge)](https://www.codefactor.io/repository/github/mcbes/mcbes)
 # MCBES
-#### Some code based on Podrum by [MFDGaming](http://github.com/MFDGaming), [Nougator](http://github.com/Nougator)
-#### written by [MFDGaming](http://github.com/MFDGaming), [nobody5050](http://github.com/nobody5050)
 
-#### MCBES is a powerful fast minecraft proxy server. built for minecraft pocket 0.6.1 and minecraft Pi edition 0.1.1
+#### MCBES is a powerful fast minecraft proxy server! 
+Built using the same technology as [Podrum](http://github.com/MFDGaming), it allows Minecraft for raspberry pi clients to join a server mad for minecraft bedrock.
 
+
+## FAQ:
 ### Why python?
-Python is fast, easy to write, easy for fix bugs. Note, Runs Python 3.4.
+Python is fast, easy to write, easy for fix bugs. 
 
-### Release date?
-It is going to be released when it is done
+### Why Minecraft for Raspberry pi?
+Minecraft for raspberry pi or mcpi for short is a version of minecrsft that has not been updated in a long time; in fact it only got 2 updates in its entire lifespan. Despite this however it has a rich modding api built in that allows access to almost the entire game. 
+Mcbes is an attempt to recify the one true flaw with it: it cant play with newer versions of the game. 
 
-### Why 0.6.1?
-I anticipate being asked this a lot if I make it work so I might as well answer now. Basically this is a proxy that translates
-packets send by minecraft pi edition over to ppackets by new bedrock edition servers, the goal being the ability to join
-minecraft bedrock servers on on your pi. **This may constitute piracy as I am enabling you to play minecraft bedrock worlds
-for free however I claim no responsibility to what you do with this software. please have a valid version of minecraft bedrock
-when playing this**
+### How do I use it?
+Clone the repository and run either *start.sh* or *start.bat*
+It will guide you through installation and basic usage. 
+
+Please note:
+**The server cannot currently be joined**
