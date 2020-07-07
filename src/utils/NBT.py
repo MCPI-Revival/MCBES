@@ -29,7 +29,7 @@ class NBT:
             lenght = Binary.readLInt(fp.read(4))
         elif(bname == 'entities'):
             fp.read(12)
-        PyNBT.traverseTag(fp, NBT.root)
+        NBT.traverseTag(fp, NBT.root)
         return next(reversed(NBT.root), None)
             
     def traverseTag(fp, tree):
