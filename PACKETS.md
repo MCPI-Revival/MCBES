@@ -33,29 +33,28 @@ VarLong	| ≥ 1, ≤ 10	| |
 SignedVarLong	| ≥ 1, ≤ 10| 	-2^63 and 2^63-1	| 
 Vector3	| 12	| | 	Three Float values (X, Y and Z respectively)
 Vector2 | 	8| | 		Two Float values (X and Y respectively)
-
-NBT			
-ByteArray			An arbitrary array of Bytes prefixed with its size in Bytes as a VarInt.
-BlockCoordinates	≥ 3, ≤ 15		A SignedVarInt, a normal VarInt and another SignedVarInt (X, Y and Z respectively)
-PlayerLocation	15		Three Float values (X, Y and Z respectively), followed by three Bytes (pitch, head yaw and yaw respectively). To convert the Bytes to normal pitch and yaw values divide them by 0.71
-UUID	16	A UUID	Encoded as two unsigned 64-bit Integers: the most significant 64 bits and the least significant 64 bits
-Item			
-ItemStacks			
-Itemstates			
-EntityAttributes			
-PlayerAttributes			
-Skin			
-Recipes			
-GameRules			
-Transaction			
-BlockPalette			
-ScoreEntries			
-MapInfo			
-PlayerRecords			
-ScoreboardIdentityEntries			
-MetadataDictionary			
-PotionTypeRecipe			
-PotionContainerChangeRecipe			
-ResourcePackInfos			
-ResourcePackIdVersions			
-ResourcePackIds			
+NBT | | | 
+ByteArray		| | | 	An arbitrary array of Bytes prefixed with its size in Bytes as a VarInt.
+BlockCoordinates	| ≥ 3, ≤ 15	| | 	A SignedVarInt, a normal VarInt and another SignedVarInt (X, Y and Z respectively)
+PlayerLocation	| 15	| | 	Three Float values (X, Y and Z respectively), followed by three Bytes (pitch, head yaw and yaw respectively). To convert the Bytes to normal pitch and yaw values divide them by 0.71
+UUID	| 16	| | A UUID	Encoded as two unsigned 64-bit Integers: the most significant 64 bits and the least significant 64 bits
+Item	| | | 		
+ItemStacks	| | | 		
+Itemstates	| | |	
+EntityAttributes| | |			
+PlayerAttributes| | |			
+Skin			| | |
+Recipes			| | |
+GameRules			| | |
+Transaction			| | |
+BlockPalette			| | |
+ScoreEntries			| | |
+MapInfo			| | |
+PlayerRecords			| | |
+ScoreboardIdentityEntries			| | |
+MetadataDictionary			| | |
+PotionTypeRecipe			| | |
+PotionContainerChangeRecipe		| | |	
+ResourcePackInfos			| | |
+ResourcePackIdVersions		| | |	
+ResourcePackIds			| | |
