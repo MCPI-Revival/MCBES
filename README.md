@@ -21,7 +21,7 @@ Clone the repository and run either *start.sh* or *start.bat*
 It will guide you through installation and basic usage.
 
 ### How do the packets work?
-Open PACKETS.md
+Open [packets.md](https://github.com/MCBes/MCBES/blob/master/packets.md)
 
 ## Please note:
 **The server currently cannot be joined**
