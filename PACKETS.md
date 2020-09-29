@@ -41,8 +41,8 @@ UUID | 16 | | A UUID Encoded as two unsigned 64-bit Integers: the most significa
 Item | | |   
 ItemStacks | | |   
 Itemstates | | | 
-EntityAttributes| | |   
-PlayerAttributes| | |   
+EntityAttributes | | |   
+PlayerAttributes | | |   
 Skin   | | |
 Recipes   | | |
 GameRules   | | |
