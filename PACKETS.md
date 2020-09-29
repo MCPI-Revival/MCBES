@@ -25,16 +25,15 @@ Int (big endian)	| 4	| -2147483648 to 2147483647	| Signed big-endian 32-bit Inte
 Unsigned Int	| 4	| 0 to 4294967295	| Unsigned 32-bit Integer
 Long	| 8	| -2^63 to 2^63-1	| Signed 64-bit Integer
 Unsigned Long	| 8	| 2^64-1	| Unsigned 64-bit Integer
-Float	| 4 | 	| 	A single-precision 32-bit IEEE 754 Floating poInt number
-Double| 	8	| | 	A Double-precision 64-bit IEEE 754 Floating poInt number
+Float	| 4 | 	| 	A single-precision 32-bit IEEE 754 Floating point number
+Double| 	8	| | 	A Double-precision 64-bit IEEE 754 Floating point number
 VarInt| 	≥ 1, ≤ 5	| 0 to 4294967295 | 	
+SignedVarInt	| ≥ 1, ≤ 5	| -2147483648 and 2147483647	
+VarLong	| ≥ 1, ≤ 10	| | 	
+SignedVarLong	| ≥ 1, ≤ 10| 	-2^63 and 2^63-1	| 
+Vector3	| 12	| | 	Three Float values (X, Y and Z respectively)
+Vector2 | 	8| | 		Two Float values (X and Y respectively)
 
-
-SignedVarInt	≥ 1, ≤ 5	-2147483648 and 2147483647	
-VarLong	≥ 1, ≤ 10		
-SignedVarLong	≥ 1, ≤ 10	-2^63 and 2^63-1	
-Vector3	12		Three Float values (X, Y and Z respectively)
-Vector2	8		Two Float values (X and Y respectively)
 NBT			
 ByteArray			An arbitrary array of Bytes prefixed with its size in Bytes as a VarInt.
 BlockCoordinates	≥ 3, ≤ 15		A SignedVarInt, a normal VarInt and another SignedVarInt (X, Y and Z respectively)
