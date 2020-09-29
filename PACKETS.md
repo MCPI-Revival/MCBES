@@ -12,7 +12,7 @@ This file is to explain the packet protocols that *Minecraft Pi* and *Minecraft 
 Name | Size | Range | Notes
 ---- | ---- | ----- | -----
 byte | 1 | -128 to 127 | Signed, two's complement
-byte | 1 | 0 to 255 | prbly unsigned	
+Unsigned byte | 1 | 0 to 255 | 
 int32	| 4	| -2147483648 to 2147483647	| Signed, two's complement
 int64	| 8	|  | Maybe a double?
 MAGIC	| 16 |  | 0x00ffff00fefefefefdfdfdfd12345678	always those hex bytes, corresponding to RakNet's default OFFLINE_MESSAGE_DATA_ID
@@ -20,14 +20,13 @@ string|	= 1	| N/A	| Prefixed by a short containing the length of the string in c
 Boolean	| 1	| 0 or 1	| A Byte treated as boolean, 0 is false but anything greater then that is true
 Short	| 2	| -32768 to 32767 | negatives and positive
 Unsigned Short | 2|	0 to 65535	| no negatives
+Int	| 4	| -2147483648 to 2147483647	| Signed little-endian 32-bit Integer
+Int (big endian)	| 4	| -2147483648 to 2147483647	| Signed big-endian 32-bit Integer
+Unsigned Int	| 4	| 0 to 4294967295	| Unsigned 32-bit Integer
+Long	| 8	| -2^63 to 2^63-1	| Signed 64-bit Integer
+Unsigned Long	| 8	2^64-1	| Unsigned 64-bit Integer
 
 
-
-Int	4	-2147483648 to 2147483647	Signed little-endian 32-bit Integer
-Int (big endian)	4	-2147483648 to 2147483647	Signed big-endian 32-bit Integer
-Unsigned Int	4	0 to 4294967295	Unsigned 32-bit Integer
-Long	8	-2^63 to 2^63-1	Signed 64-bit Integer
-Unsigned Long	8	2^64-1	Unsigned 64-bit Integer
 Float	4		A single-precision 32-bit IEEE 754 Floating poInt number
 Double	8		A Double-precision 64-bit IEEE 754 Floating poInt number
 VarInt	≥ 1
