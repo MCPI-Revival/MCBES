@@ -5,5 +5,5 @@ python:
   - "3.8"
 install:
   - "pip install requests"
-script: 
+script:
   - python ./src/MCBES.py --no_wizard -travis
