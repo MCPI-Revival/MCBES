@@ -64,7 +64,7 @@ ResourcePackIds | | |
 
 ## FAQ
 ### What is a signed number?
-Something that is signed has the potential to be both positive and negative. A signed number uses one bit to represent if it is positive or negative. An unsigned object can store more data because it doen't use that bit to store whether it is positive or negative. 
+A signed number is one that has the potential to be both positive and negative. A signed number uses one bit to represent if it is positive or negative. An unsigned object can store more data because it doen't use that bit to store whether it is positive or negative. 
 
 Unsigned or signed objects are usually numbers.
 
