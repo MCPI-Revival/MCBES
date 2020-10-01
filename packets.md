@@ -63,6 +63,7 @@ ResourcePackIds | | |
 ### Minecraft Bedrock
 #### List Of All Packets
 Packet ID | Headed To | Field Name | Type of Field | Notes
+----------- | ------------- | ------------- | --------------| ---------
 0x01 | Server | <table> <tr> Protocol Version </tr> <tr> Chain Data </tr> <tr> Skin Data </tr> </table> | <table> <tr> int </tr> <tr> json array of JWT data </tr> <tr> JWT data </tr> </table> | <table> <tr>  </tr> <tr> Contains the display name, UUID and XUID </tr> <tr>  </tr> </table>
 
 ### Minecraft Pi
