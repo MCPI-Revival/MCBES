@@ -1,4 +1,4 @@
-# Packets
+# Packets \(WIP)
 
 ## What is this for?
 This file is to explain the packet protocols that *Minecraft Pi* and *Minecraft Bedrock* use, and how we can change one to the other (will be updated as we learn more).
@@ -59,7 +59,18 @@ ResourcePackInfos | | |
 ResourcePackIdVersions  | | | 
 ResourcePackIds | | |
 
-## Packets
+## Packets 
+### Minecraft Bedrock
+#### List Of All Packets
+Packet ID | Headed To | Field Name | Type of Field | Notes
+0x01 | Server | <table> <tr> Protocol Version </tr> <tr> Chain Data </tr> <tr> Skin Data </tr> </table> | <table> <tr> int </tr> <tr> json array of JWT data </tr> <tr> JWT data </tr> </table> | <table> <tr>  </tr> <tr> Contains the display name, UUID and XUID </tr> <tr>  </tr> </table>
+
+### Minecraft Pi
+#### List Of All Packets
+WIP
+
+### Comparisons
+WIP
 
 
 ## FAQ
