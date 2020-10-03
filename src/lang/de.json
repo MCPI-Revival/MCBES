@@ -1,0 +1,14 @@
+{
+    "langName": "Deutsch",
+    "langSelectedAsBase": "Deutsch ist ausgewählt als Basissprache.",
+    "writeYesOrNo": "Bitte schreiben Sie ja (y) oder nein (n).",
+    "writeMOTD": "Schreiben Sie das MOTD für die Proxy::",
+    "writeMaxPlayers": "Schreiben Sie die Anzahl der Spieler, die höchstens sich mit der Proxy verbinden können::",
+    "wizardFinished": "Sie haben den Server-Setup-Assistent abgeschlossen!",
+    "acceptLicense": "Akzeptieren sie die Lizenz? [y/n]",
+    "mustAcceptLicence": "Sie müssen die Lizenz akzeptieren, um die Software nutzen zu können.",
+    "startingServer": "Proxy wird gestartet auf: {ip}:{port}",
+    "extIpMsg": "Das ist Ihre externe IP-Adresse: {ipPublic}. Wenn Sie Spieler außerhalb ihres Netzwerkes haben wollen, müssen Sie diese Adresse mit Port weiterleiten",
+    "license": "MCBES ist unter GPLv3 lizenziert",
+    "invalidCommand": "Ungültiger Befehl"
+}
