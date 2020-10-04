@@ -69,8 +69,8 @@ ResourcePackIds | | |
 | Server To Client Handshake | 0x03 | Client | JWT data | JWT String | Contains information to complete the Diffie-Hellman key exchange | 
 | Client To Server Handshake
 
-### Notes
-#### Packet 0x02
+#### Notes
+##### Packet 0x02
 The values for each status are as follows:
 
     0: Login success 
@@ -85,6 +85,9 @@ The values for each status are as follows:
 
 ### Minecraft Pi
 #### List Of All Packets
+WIP
+
+#### Notes
 WIP
 
 ### Comparisons
