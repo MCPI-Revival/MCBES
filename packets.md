@@ -66,6 +66,20 @@ ResourcePackIds | | |
 | ----------- | ------------- | ------------- | --------------| --------- |
 | 0x01 | Server | <table> <tr><td>  Protocol Version </td> </tr> <tr> <td> Chain Data </td>  </tr> <tr> <td> Skin Data</td>  </tr> </table> | <table> <tr> <td> int </td> </tr> <tr> <td> json array of JWT data </td> </tr> <tr> <td> JWT data </td> </tr> </table> | <table> <tr>  <td>N/A</td> </tr> <tr> <td> Contains the display name, UUID and XUID </td> </tr> <tr> <td> N/A</td>  </tr> </table> |
 | 0x02 | Client | Status | int | Current status of the connection |
+| 0x03 | Client | JWT data | JWT String | Contains information to complete the Diffie-Hellman key exchange | 
+
+### Notes
+#### Packet 0x02
+The values for each status are as follows:
+
+0: Login success
+1: Failed client
+2: Failed server
+3 Player spawn
+4 Failed invalid Tenant
+5: Failed Vanilla Edu.
+6: Failed Edu. Vanilla
+7: Failed server full
 
 
 ### Minecraft Pi
