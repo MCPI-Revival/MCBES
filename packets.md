@@ -64,7 +64,8 @@ ResourcePackIds | | |
 #### List Of All Packets
 | Packet ID | Headed To | Field Name | Type of Field | Notes |
 | ----------- | ------------- | ------------- | --------------| --------- |
-|0x01 | Server | <table> <tr><td>  Protocol Version </td> </tr> <tr> <td> Chain Data </td>  </tr> <tr> <td> Skin Data</td>  </tr> </table> | <table> <tr> <td> int </td> </tr> <tr> <td> json array of JWT data </td> </tr> <tr> <td> JWT data </td> </tr> </table> | <table> <tr>  <td>N/A</td> </tr> <tr> <td> Contains the display name, UUID and XUID </td> </tr> <tr> <td> N/A</td>  </tr> </table> |
+| 0x01 | Server | <table> <tr><td>  Protocol Version </td> </tr> <tr> <td> Chain Data </td>  </tr> <tr> <td> Skin Data</td>  </tr> </table> | <table> <tr> <td> int </td> </tr> <tr> <td> json array of JWT data </td> </tr> <tr> <td> JWT data </td> </tr> </table> | <table> <tr>  <td>N/A</td> </tr> <tr> <td> Contains the display name, UUID and XUID </td> </tr> <tr> <td> N/A</td>  </tr> </table> |
+| 0x02 | Client | Status | int | Current status of the connection |
 
 
 ### Minecraft Pi
