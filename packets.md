@@ -98,6 +98,3 @@ A signed number is one that has the potential to be both positive and negative. 
 
 ## Copyright
 \(TBA\)
-
-
-
