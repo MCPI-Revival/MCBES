@@ -100,16 +100,4 @@ A signed number is one that has the potential to be both positive and negative. 
 \(TBA\)
 
 
-{| class="wikitable"
-! Packet ID
-! Bound To
-! Field Name
-! Field Type
-! Notes
-|-
-|rowspan="1"| 0x03
-|rowspan="1"| Client
-| JWT data
-| JWT String
-| Contains the salt to complete the Diffie-Hellman key exchange
-|}
+
