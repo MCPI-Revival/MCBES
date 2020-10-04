@@ -63,13 +63,14 @@ Empty | | |
 ## Packets 
 ### Minecraft Bedrock
 #### List Of All Packets
+\(missing  0x10, 0x74, 0x7F, 0x80 (16, 116, 127, 128))
 | Name | Packet ID | Headed To | Field Name | Type of Field | Notes |
 | ------- | ----------- | ------------- | ------------- | --------------| --------- |
 | Login | 0x01 | Server | <table> <tr><td>  Protocol Version </td> </tr> <tr> <td> Chain Data </td>  </tr> <tr> <td> Skin Data</td>  </tr> </table> | <table> <tr> <td> int </td> </tr> <tr> <td> json array of JWT data </td> </tr> <tr> <td> JWT data </td> </tr> </table> | <table> <tr>  <td> </td> </tr> <tr> <td> Contains the display name, UUID and XUID </td> </tr> <tr> <td>  </td>  </tr> </table> |
 | Play Status | 0x02 | Client | Status | int | Current status of the connection |
 | Server To Client Handshake | 0x03 | Client | JWT data | JWT String | Contains information to complete the Diffie-Hellman key exchange | 
 | Client To Server Handshake | 0x04 | Server | Empty | | |
-| Disconnect | 0x05 | | | | | 
+| Disconnect | 0x05 | Client | | | | 
 
 #### Notes
 ##### Packet 0x02
