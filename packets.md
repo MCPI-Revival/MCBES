@@ -72,14 +72,14 @@ ResourcePackIds | | |
 #### Packet 0x02
 The values for each status are as follows:
 
-    0: Login success <br>
-    1: Failed client <br>
-    2: Failed server <br>
-    3: Player spawn <br>
-    4: Failed invalid Tenant <br>
-    5: Failed Vanilla Edu. <br>
-    6: Failed Edu. Vanilla <br>
-    7: Failed server full <br>
+    0: Login success 
+    1: Failed client 
+    2: Failed server 
+    3: Player spawn 
+    4: Failed invalid Tenant 
+    5: Failed Vanilla Edu. 
+    6: Failed Edu. Vanilla 
+    7: Failed server full 
 
 
 ### Minecraft Pi
