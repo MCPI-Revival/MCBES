@@ -5,7 +5,7 @@
 
 #### What is MCBES?
 MCBes is a powerful fast minecraft proxy server!
-Built using the same technology as [Podrum](http://github.com/podrum/podrum), it allows *Minecraft for Raspberry PI* clients to join a server made for Minecraft Bedrock.
+Built using the same technology as [Podrum](http://github.com/podrum/podrum), it allows *Minecraft PI Edition* clients to join a server made for Minecraft Bedrock.
 
 
 ## FAQ:
