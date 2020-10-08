@@ -1,6 +1,6 @@
 # MCBES
 
-[![Build Status](https://travis-ci.org/Mcbes/MCBES.svg?branch=master)](https://travis-ci.org/MCBes/MCBES) ![GitHub issues](https://img.shields.io/github/issues-raw/Mcbes/mcbes) [![CodeFactor](https://www.codefactor.io/repository/github/mcbes/mcbes/badge)](https://www.codefactor.io/repository/github/mcbes/mcbes)
+[![Build Status](https://travis-ci.org/Mcbes/MCBES.svg?branch=master)](https://travis-ci.org/mcpi-devs/MCBES) ![GitHub issues](https://img.shields.io/github/issues-raw/mcpi-devs/mcbes) [![CodeFactor](https://www.codefactor.io/repository/github/mcpi-devs/mcbes/badge)](https://www.codefactor.io/repository/github/mcpi-devs/mcbes)
 
 
 #### What is MCBES?
