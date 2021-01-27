@@ -56,7 +56,7 @@ class Binary:
     @staticmethod
     def readSignedShort(str: bytes) -> int:
         Binary.checkLength(str, 2)
-        if calcsize == 8
+        if calcsize == 8:
             return unpack('>H', str)[0] << 48 >> 48
         else:
             return unpack('>H', str)[0] << 16 >> 16
@@ -73,7 +73,7 @@ class Binary:
     @staticmethod
     def readSignedLShort(str: bytes) -> int:
         Binary.checkLength(str, 2)
-        if calcsize == 8
+        if calcsize == 8:
             return unpack('<H', str)[0] << 48 >> 48
         else:
             return unpack('<H', str)[0] << 16 >> 16
