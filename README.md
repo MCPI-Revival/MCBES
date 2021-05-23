@@ -18,9 +18,6 @@ MCBES is an attempt to recify the one true flaw with it: it can't play with newe
 Clone the repository and run either *start.sh* or *start.bat*
 It will guide you through installation and basic usage.
 
-### How do the packets work?
-Open [packets.md](https://github.com/mcpi-revival/MCBES/blob/master/packets.md)
-
 ## Please note:
 **The server currently cannot be joined**
 
