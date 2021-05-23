@@ -20,5 +20,3 @@ It will guide you through installation and basic usage.
 
 ## Please note:
 **The server currently cannot be joined**
-
-The current codebase is abandoned, so podrum will be rewritten from scratch in the [rewrite](https://github.com/MCPI-Revival/MCBES/tree/rewrite) branch.
