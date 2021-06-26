@@ -4,14 +4,14 @@
 
 
 #### What is MCBES?
-MCBES is a powerful and fast minecraft proxy server!
+MCBES is a powerful and fast minecraft proxy server! It's goal is to let MCPI-based clients connect to Bedrock servers for a smooth crossplay experience.
 
 ## FAQ:
 ### Why python?
 Python is fast, easy to write, easy for fix bugs. Although it is slower the speed should not be to major, if it is, create an issue with exactly what you were doing at that time.
 
 ### Why Minecraft for Raspberry pi?
-*Minecraft for Raspberry Pi* or MCPi for short is a version of Minecraft that has not been updated in a long time; in fact it only got 2 updates in its entire lifespan. Despite this however it has a rich modding api built in that allows access to almost the entire game. 
+*Minecraft for Raspberry Pi* or MCPi for short is a version of Minecraft that has nhttps://github.com/Podrum/Podrumot been updated in a long time; in fact it only got 2 updates in its entire lifespan. Despite this however it has a rich modding api built in that allows access to almost the entire game. 
 MCBES is an attempt to recify the one true flaw with it: it can't play with newer versions of the game. 
 
 ### How do I use it?
@@ -20,3 +20,5 @@ It will guide you through installation and basic usage.
 
 ## Please note:
 **The server currently cannot be joined**
+
+The old code has been abondoned in favour of using the [Podrum](https://github.com/Podrum/Podrum) server softaare as a base instead.
